@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.content{
+    margin: auto;
+    width: 1000px;
+}
+.content .row{
+    width: 100%;
+}
+.content .row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.content .row .col-3{
+    width: 30%;
+    padding: 0;
+    float: left;
+}
+.content .info{
+    background-color: rgb(26, 126, 165);
+}
+
+.col-10{
+    width: 100%;
+    float: left;
+}
+.content .row .col-3 .name1{
+    text-align: center
+}
+.content .row .col-3 .name1 img{
+    border-radius: 50%;
+}
+.content .row .col-3 .name1 .login{
+    width: 80%;
+    background: none;
+    border: dotted black;
+    padding: 10px;
+    color: white;
+}
+.content .row .col-3 .info{
+    width: 100%;
+}
+.content .row .col-3 .info .info1{
+    list-style: none;
+}
+.content .row .col-3 .info .info1 li{
+    text-align: left;
+    padding: 10px 15px;
+    color: aliceblue;
+    font-size: 15px;
+}
+.content .row .col-3 .muctieu h2{
+    color: aliceblue;
+    padding: 10px 15px;
+}
+.content .row .col-3 .muctieu p{
+    color: aliceblue;
+    padding: 10px 15px;
+}
+.content .row .col-7{
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+.content .row .col-7 .title{
+    padding-top: 0px;
+    padding-left: 20px;
+}
+.content .row .col-10 h2{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.content .row .col-10 p{
+    padding: 0px 20px;
+}
